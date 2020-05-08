@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, FlatList, KeyboardAvoidingView, TextInput, Imag
 import Constants from 'expo-constants';
 import {createAppContainer} from 'react-navigation';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
-//import { Icon } from 'expo';
 import { AntDesign } from '@expo/vector-icons';
 
 class ScreenPhone extends Component {

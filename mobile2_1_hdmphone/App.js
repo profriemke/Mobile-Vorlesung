@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { StyleSheet, Text, View, Button, TextInput, Image } from 'react-native';
-import Zaehler from './Zaehler.js';
+import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 
 export default class App extends Component {
   state={
@@ -8,7 +7,6 @@ export default class App extends Component {
     gefunden:'keine Treffer'
   }
   render (){
-    const aktuelleKlicks=this.state.klicks
       return (
         <View style={styles.container}>
           <Image
